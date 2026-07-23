@@ -1,0 +1,121 @@
+/* Springtime in Michigan - Stylesheet (CSS Week 1 HW2) */
+
+body {
+  color: #1a1a1a;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background-color: #1a252f;
+  color: #ffffff;
+  padding: 8px 16px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #1a252f;
+  display: inline-block;
+  width: 80%;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* li styling from HW1 is commented out (requirement 3)
+li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+*/
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav img {
+  width: 10%;
+}
+
+nav a {
+  color: #a8d8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #ecf0f1;
+  color: #1a1a1a;
+  font-size: 18px;
+  padding: 25px;
+}
+
+main a {
+  color: #0b5394;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #a8d8ff;
+}
