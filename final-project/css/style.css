@@ -69,7 +69,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #e63946;
+  background-color: #a00e1a;
 }
 
 main {
@@ -80,7 +80,7 @@ main {
 
 main h2 {
   color: #0a3d2c;
-  border-bottom: 3px solid #e63946;
+  border-bottom: 3px solid #a00e1a;
   padding-bottom: 8px;
 }
 
@@ -142,7 +142,7 @@ img {
 
 .flex img:nth-child(even) {
   border-radius: 50%;
-  border-color: #e63946;
+  border-color: #a00e1a;
 }
 
 .flex img:hover {
