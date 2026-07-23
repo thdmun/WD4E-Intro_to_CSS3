@@ -1,4 +1,75 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* Springtime in Michigan - Stylesheet (CSS Week 1 HW1) */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #1a252f;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+nav a {
+  color: #a8d8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #ecf0f1;
+  font-size: 18px;
+  padding: 25px;
+  color: #1a1a1a;
+}
+
+main a {
+  color: #0b5394;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #a8d8ff;
 }
